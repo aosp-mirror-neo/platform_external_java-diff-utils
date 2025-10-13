@@ -1,0 +1,19 @@
+package {
+    default_applicable_licenses: ["external_java_diff_utils_license"],
+}
+
+license {
+    name: "external_java_diff_utils_license",
+    visibility: ["//visibility:private"],
+    license_kinds: ["SPDX-license-identifier-Apache-2.0"],
+    license_text: ["LICENSE"],
+}
+
+java_library_host {
+    name: "java_diff_utils",
+    defaults: ["error_prone_dependency_defaults"],
+    srcs: ["java-diff-utils/src/main/java/**/*.java"],
+    visibility: [
+        "//external/error_prone",
+    ],
+}
