@@ -13,7 +13,10 @@ java_library_host {
     name: "java_diff_utils",
     defaults: ["error_prone_dependency_defaults"],
     srcs: ["java-diff-utils/src/main/java/**/*.java"],
+    // b/267831518: Pin tradefed and dependencies to Java 11.
+    java_version: "11",
     visibility: [
         "//external/error_prone",
+        "//tools/tradefederation/core:__subpackages__",
     ],
 }
