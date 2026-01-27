@@ -1,18 +1,18 @@
 name: "java-diff-utils"
-description:
-    "Diff Utils library is an OpenSource library for performing the comparison "
-    "/ diff operations between texts or some kind of data: computing diffs, "
-    "applying patches, generating unified diffs or parsing them, generating "
-    "diff output for easy future displaying (like side-by-side view) and so on."
-
+description: "Diff Utils library is an OpenSource library for performing the comparison / diff operations between texts or some kind of data: computing diffs, applying patches, generating unified diffs or parsing them, generating diff output for easy future displaying (like side-by-side view) and so on."
 third_party {
+  version: "java-diff-utils-parent-4.16"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2025
+    month: 10
+    day: 7
+  }
   identifier {
     type: "Git"
     value: "https://github.com/java-diff-utils/java-diff-utils.git"
+    version: "e4a510baf42828ce6cec129095acffdf1aa0a0ba"
+    closest_version: "java-diff-utils-parent-4.16"
     primary_source: true
-    version: "java-diff-utils-parent-4.16"
   }
-  version: "java-diff-utils-parent-4.16"
-  last_upgrade_date { year: 2025 month: 10 day: 7 }
-  license_type: NOTICE
 }
