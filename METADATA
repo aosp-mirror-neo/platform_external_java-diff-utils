@@ -11,7 +11,7 @@ third_party {
   identifier {
     type: "Git"
     value: "https://github.com/java-diff-utils/java-diff-utils.git"
-    version: "e4a510baf42828ce6cec129095acffdf1aa0a0ba"
+    version: "637cb7b6a309d66ff5e0cec2b3ffea52f867edc7"
     closest_version: "java-diff-utils-parent-4.16"
     primary_source: true
   }
